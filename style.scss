@@ -1,0 +1,20 @@
+$main-font: 'Teko', sans-serif;
+$primary-color: #faf2e2;
+$sec-color: #702632;
+
+@use "nav-menu";
+@use "main";
+@use "footer";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+}
+
+body {
+    background-color: $primary-color;
+    overflow-x: hidden;
+}
+
